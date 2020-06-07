@@ -11,18 +11,18 @@ class tcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-os.system('title Calcul des nombres premiers... ')
+os.system('title Calculating prime numbers... ')
 
 clear = lambda : os.system('cls')
 clear()
-print(tcolors.WARNING + 'Importation des nombres... ' + tcolors.END)
+print(tcolors.WARNING + 'Importation of the numbers... ' + tcolors.END)
 list = open('list.txt', 'r').read()
 list = list.split('\n')
 last_tested = int(open('last.txt', 'r').read())
 num = last_tested + 1
 new = []
 clear()
-print(tcolors.WARNING + 'Démarage des calculs... ' + tcolors.END)
+print(tcolors.WARNING + 'Starting... ' + tcolors.END)
 delay(0.3)
 clear()
 try :
@@ -46,7 +46,7 @@ try :
         last = num
         num += 1
 except KeyboardInterrupt :
-    print(tcolors.WARNING + 'Sauvegarde en cours... ' + tcolors.END)
+    print(tcolors.WARNING + 'Saving in progress, please don\'t interrupt... ' + tcolors.END)
     open('last.txt', 'w').write(str(last))
     upload = '\n'
     for i in new :
@@ -56,12 +56,12 @@ except KeyboardInterrupt :
         upload = upload + i
     open('list.txt', 'a').write(upload)
     clear()
-    print(tcolors.WARNING + 'Valeurs sauvegardées!' + tcolors.END)
+    print(tcolors.WARNING + 'Successfully saved to list.txt' + tcolors.END)
     delay(1)
     clear()
     print('')
-    print(tcolors.OKBLUE + str(primes_number) + ' nombres premiers ont été générés. ' + tcolors.END)
+    print(tcolors.OKBLUE + str(primes_number) + ' prime numbers have been generated. ' + tcolors.END)
     print('')
-    print(tcolors.OKBLUE + 'Le dernier nombre premier généré est ' + str(last) + tcolors.END)
+    print(tcolors.OKBLUE + 'The last prime number generated is ' + str(last) + tcolors.END)
     print('')
-    print(tcolors.OKGREEN + 'A bientôt! ;)' + tcolors.END)
+    print(tcolors.OKGREEN + 'See you! ;)' + tcolors.END)
