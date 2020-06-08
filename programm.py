@@ -34,9 +34,9 @@ try :
     last_found = list[-1]
     while True :
         prime = 1
+        difference = int(num) - int(last_found)
         print('Actually testing : ' + tcolors.OKBLUE + str(num) + tcolors.END)
         print('Last prime number found : ' + tcolors.OKBLUE + str(last_found) + tcolors.END)
-        difference = int(num) - int(last_found)
         print('Difference : ' + tcolors.OKBLUE + str(difference) + tcolors.END)
         for i in list :
             i = int(i)
