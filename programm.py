@@ -62,8 +62,6 @@ try :
         num += 1
         tested += 1
         clear()
-        if num == 1000000000 :
-            notification.notify(title='Prime numbers calculator', message='We have reached the billion !!!', app_icon=None, timeout=3200)
 except KeyboardInterrupt :
     print(tcolors.WARNING + 'Saving in progress, please don\'t interrupt... ' + tcolors.END)
     open('last.txt', 'w').write(str(last))
