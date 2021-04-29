@@ -2,7 +2,7 @@
 A program that calculates the prime numbers. 
 
 # Instructions
-* Clone the repository
+* Clone the repository `git clone `
   * Make sure that they are all in one single folder. 
 
 # Functionality explanation
