@@ -1,4 +1,4 @@
-# prime_numbers
+# Description
 A program that calculates the prime numbers. 
 
 # Instructions
