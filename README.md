@@ -6,6 +6,8 @@ A program that calculates the prime numbers.
   * The command: `git clone https://github.com/Pythack/prime_numbers.git`
   * The [zip file](https://github.com/Pythack/prime_numbers/archive/refs/heads/master.zip)
 * Make sure all the files are in **one single folder**. 
+* Open the directory in the command prompt or in the powershell. 
+* Execute this command: `python program.py`
 
 # Functionality explanation
 The programm will calculate the prime numbers with the previously 
