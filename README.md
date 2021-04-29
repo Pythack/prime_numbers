@@ -5,7 +5,7 @@ A program that calculates the prime numbers.
 * Clone the repository with: 
   * The command: `git clone https://github.com/Pythack/prime_numbers.git`
   * The [zip file](https://github.com/Pythack/prime_numbers/archive/refs/heads/master.zip)
-* Make sure that they are all in one single folder. 
+* Make sure all the files are in **one single folder**. 
 
 # Functionality explanation
 The programm will calculate the prime numbers with the previously 
