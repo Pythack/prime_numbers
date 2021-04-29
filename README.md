@@ -9,10 +9,9 @@ A program that calculates the prime numbers.
 * Open the directory in the command prompt or in the powershell. 
 * Execute this command: `python program.py`
 
-# Functionality explanation
-The programm will calculate the prime numbers with the previously 
+# Functionalities
+The program will calculate the prime numbers with the previously 
 calculated prime numbers. It will restart at the same number he finished with. 
-All program by me, except the modules. 
 
 # test.py
 The test.py program can test individually a number, and tells you if it is a prime number. 
