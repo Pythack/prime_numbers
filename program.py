@@ -19,7 +19,7 @@ class tcolors:
 
 os.system('title Calculating prime numbers... ')
 
-clear = lambda : os.system('cls')
+clear = lambda:os.system('cls')
 clear()
 print(tcolors.WARNING + 'Importation of the numbers... ' + tcolors.END)
 list = open('list.txt', 'r').read()
@@ -40,9 +40,9 @@ try :
         print('3')
     last_found = list[-1]
     while True :
-        clear()
         prime = 1
         difference = int(num) - int(last_found)
+        clear()
         print('Actually testing : ' + tcolors.OKBLUE + str(num) + tcolors.END)
         print('Last prime number found : ' + tcolors.OKBLUE + str(last_found) + tcolors.END)
         print('Difference : ' + tcolors.OKBLUE + str(difference) + tcolors.END)
