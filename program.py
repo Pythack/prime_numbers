@@ -40,6 +40,7 @@ try :
         print('3')
     last_found = list[-1]
     while True :
+        clear()
         prime = 1
         difference = int(num) - int(last_found)
         print('Actually testing : ' + tcolors.OKBLUE + str(num) + tcolors.END)
@@ -61,7 +62,6 @@ try :
         last = num
         num += 1
         tested += 1
-        clear()
 except KeyboardInterrupt :
     print(tcolors.WARNING + 'Saving in progress, please don\'t interrupt... ' + tcolors.END)
     open('last.txt', 'w').write(str(last))
